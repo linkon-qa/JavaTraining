@@ -1,3 +1,5 @@
+package sequencialStructure;
+
 import java.util.Scanner;
 /*
 * Make a program to read a value of the radius of a circle,
@@ -12,5 +14,6 @@ public class Exercise2 {
         radius = sc.nextDouble();
         area = pi* Math.pow(radius,2);
         System.out.printf("Area=%.4f%n", area);
+        sc.close();
     }
 }

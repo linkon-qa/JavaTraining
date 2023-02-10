@@ -1,3 +1,5 @@
+package sequencialStructure;
+
 import java.util.Scanner;
 
 /*
@@ -15,5 +17,6 @@ public class Exercise3 {
         d = sc.nextInt();
         result = a*b - c*d;
         System.out.printf("Result is"+ result);
+        sc.close();
     }
 }

@@ -1,3 +1,5 @@
+package sequencialStructure;
+
 import java.util.Scanner;
 /*
 * Make a program to read two integer values,
@@ -11,5 +13,6 @@ public class Exercise1 {
         a = Integer.parseInt(scanner.nextLine());
         b = Integer.parseInt(scanner.nextLine());
         System.out.println("Sum is = "+ (a+b));
+        scanner.close();
     }
 }
