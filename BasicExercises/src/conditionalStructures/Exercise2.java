@@ -3,9 +3,9 @@ package conditionalStructures;
 import java.util.Scanner;
 
 /*
-* Make a program to read one integer values,
-* and then say if that number is positive or negative.
-* */
+* Make a program to two numbers and say what is the region
+* for cartesian plane there are: Q1, Q2, Q3 , Q4, origin, x-axis and y-axis
+ * */
 public class Exercise2 {
     public static void main(String[] args) {
         float x,y;
